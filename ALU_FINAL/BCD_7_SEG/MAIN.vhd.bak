@@ -1,0 +1,67 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity Main is
+    port (
+       
+        Input_A : in std_logic_vector(7 downto 0);
+        Input_B : in std_logic_vector(7 downto 0);
+        Selector_Operacion : in std_logic_vector(1 downto 0);
+        Output_Result : out std_logic_vector(7 downto 0);
+        NZVC : out std_logic_vector(3 downto 0);
+        IA : out std_logic;
+        IB : out std_logic;
+        IC : out std_logic;
+        ID : out std_logic;
+        F : out std_logic_vector(6 downto 0)
+    );
+end entity Main;
+
+architecture Main_arq of Main is
+
+    component ALU
+        port (
+            Input_A : in std_logic_vector(7 downto 0);
+            Input_B : in std_logic_vector(7 downto 0);
+            Selector_Operacion : in std_logic_vector(1 downto 0);
+            Output_Result : out std_logic_vector(7 downto 0);
+            NZVC : out std_logic_vector(3 downto 0)
+        );
+    end component;
+
+    component BCD
+        port (
+            IA : in std_logic;
+            IB : in std_logic;
+            IC : in std_logic;
+            ID : in std_logic;
+            F : out std_logic_vector(6 downto 0)
+        );
+    end component;
+
+    signal IA, IB, IC, ID : std_logic;
+    signal F : std_logic_vector(6 downto 0);
+
+begin
+
+    ALU_inst : ALU
+        port map (
+            Input_A => Input_A,
+            Input_B => Input_B,
+            Selector_Operacion => Selector_Operacion,
+            Output_Result => Output_Result,
+            NZVC => NZVC
+        );
+
+    BCD_inst : BCD
+        port map (
+            IA => IA,
+            IB => IB,
+            IC => IC,
+            ID => ID,
+            F => F
+        );
+
+end architecture Main_arq;

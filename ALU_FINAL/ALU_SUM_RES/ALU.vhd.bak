@@ -1,0 +1,58 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity ALU is 
+    port (
+        
+        Input_A           : in  std_logic_vector (7 downto 0);
+        Input_B           : in  std_logic_vector (7 downto 0);
+        Selector_Operación: in  std_logic_vector (1 downto 0);
+        Output_Result     : out std_logic_vector (7 downto 0);
+        NZVC              : out std_logic_vector (3 downto 0) 
+    );
+end 
+ALU;
+
+architecture ALU_arq of ALU is 
+begin
+    ALU_PROCESS: process (Input_A, Input_B, Selector_Operación)
+        variable Sum_unsigned: unsigned(8 downto 0);
+    begin
+        if (Selector_Operación = "00") then
+            ---Suma 
+            Sum_unsigned := unsigned('0' & Input_A) + unsigned('0' & Input_B);
+            Output_Result <= std_logic_vector(Sum_unsigned(7 downto 0));
+
+            ---(N)
+            NZVC(3) <= Sum_unsigned(7); 
+
+            ---(Z)
+            NZVC(2) <= '1' when (Sum_unsigned(7 downto 0) = x"00") else '0'; 
+
+            ---(V)
+            NZVC(1) <= '1' when ((Input_A(7)='0' and Input_B(7)='0' and Sum_unsigned(7)='1') or 
+                                (Input_A(7)='1' and Input_B(7)='1' and Sum_unsigned(7)='0')) else '0'; -- Cambiado de "Flags" a "NZVC"
+
+            ---(C)
+            NZVC(0) <= Sum_unsigned(8);
+        elsif (Selector_Operación = "01") then
+            ---Resta
+            Sum_unsigned := unsigned('0' & Input_A) - unsigned('0' & Input_B);
+            Output_Result <= std_logic_vector(Sum_unsigned(7 downto 0));
+
+            ---(N)
+            NZVC(3) <= Sum_unsigned(7); 
+
+            ---(Z)
+            NZVC(2) <= '1' when (Sum_unsigned(7 downto 0) = x"00") else '0'; 
+
+            ---(V)
+            NZVC(1) <= '1' when ((Input_A(7)='0' and Input_B(7)='1' and Sum_unsigned(7)='1') or 
+                                (Input_A(7)='1' and Input_B(7)='0' and Sum_unsigned(7)='0')) else '0'; 
+
+            ---(C)
+            NZVC(0) <= '1' when unsigned(Input_A) < unsigned(Input_B) else '0';
+        end if;
+    end process;
+end ALU_arq;

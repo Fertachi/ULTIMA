@@ -1,0 +1,1117 @@
+TimeQuest Timing Analyzer report for MAIN
+Mon Jun 03 15:00:02 2024
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow 1200mV 85C Model Fmax Summary
+  6. Timing Closure Recommendations
+  7. Slow 1200mV 85C Model Setup Summary
+  8. Slow 1200mV 85C Model Hold Summary
+  9. Slow 1200mV 85C Model Recovery Summary
+ 10. Slow 1200mV 85C Model Removal Summary
+ 11. Slow 1200mV 85C Model Minimum Pulse Width Summary
+ 12. Slow 1200mV 85C Model Minimum Pulse Width: 'Selector_Operacion[1]'
+ 13. Setup Times
+ 14. Hold Times
+ 15. Clock to Output Times
+ 16. Minimum Clock to Output Times
+ 17. Slow 1200mV 85C Model Metastability Report
+ 18. Slow 1200mV 0C Model Fmax Summary
+ 19. Slow 1200mV 0C Model Setup Summary
+ 20. Slow 1200mV 0C Model Hold Summary
+ 21. Slow 1200mV 0C Model Recovery Summary
+ 22. Slow 1200mV 0C Model Removal Summary
+ 23. Slow 1200mV 0C Model Minimum Pulse Width Summary
+ 24. Slow 1200mV 0C Model Minimum Pulse Width: 'Selector_Operacion[1]'
+ 25. Setup Times
+ 26. Hold Times
+ 27. Clock to Output Times
+ 28. Minimum Clock to Output Times
+ 29. Slow 1200mV 0C Model Metastability Report
+ 30. Fast 1200mV 0C Model Setup Summary
+ 31. Fast 1200mV 0C Model Hold Summary
+ 32. Fast 1200mV 0C Model Recovery Summary
+ 33. Fast 1200mV 0C Model Removal Summary
+ 34. Fast 1200mV 0C Model Minimum Pulse Width Summary
+ 35. Fast 1200mV 0C Model Minimum Pulse Width: 'Selector_Operacion[1]'
+ 36. Setup Times
+ 37. Hold Times
+ 38. Clock to Output Times
+ 39. Minimum Clock to Output Times
+ 40. Fast 1200mV 0C Model Metastability Report
+ 41. Multicorner Timing Analysis Summary
+ 42. Setup Times
+ 43. Hold Times
+ 44. Clock to Output Times
+ 45. Minimum Clock to Output Times
+ 46. Board Trace Model Assignments
+ 47. Input Transition Times
+ 48. Slow Corner Signal Integrity Metrics
+ 49. Fast Corner Signal Integrity Metrics
+ 50. Clock Transfers
+ 51. Report TCCS
+ 52. Report RSKM
+ 53. Unconstrained Paths
+ 54. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                       ;
++--------------------+----------------------------------------------------+
+; Quartus II Version ; Version 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
+; Revision Name      ; MAIN                                               ;
+; Device Family      ; Cyclone III                                        ;
+; Device Name        ; EP3C16F484C6                                       ;
+; Timing Models      ; Final                                              ;
+; Delay Model        ; Combined                                           ;
+; Rise/Fall Delays   ; Enabled                                            ;
++--------------------+----------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 8      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clocks                                                                                                                                                                                                       ;
++-----------------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+---------------------------+
+; Clock Name            ; Type ; Period ; Frequency  ; Rise  ; Fall  ; Duty Cycle ; Divide by ; Multiply by ; Phase ; Offset ; Edge List ; Edge Shift ; Inverted ; Master ; Source ; Targets                   ;
++-----------------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+---------------------------+
+; Selector_Operacion[1] ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { Selector_Operacion[1] } ;
++-----------------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+---------------------------+
+
+
+--------------------------------------
+; Slow 1200mV 85C Model Fmax Summary ;
+--------------------------------------
+No paths to report.
+
+
+----------------------------------
+; Timing Closure Recommendations ;
+----------------------------------
+HTML report is unavailable in plain text report export.
+
+
+---------------------------------------
+; Slow 1200mV 85C Model Setup Summary ;
+---------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1200mV 85C Model Hold Summary ;
+--------------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow 1200mV 85C Model Recovery Summary ;
+------------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 85C Model Removal Summary ;
+-----------------------------------------
+No paths to report.
+
+
++---------------------------------------------------+
+; Slow 1200mV 85C Model Minimum Pulse Width Summary ;
++-----------------------+--------+------------------+
+; Clock                 ; Slack  ; End Point TNS    ;
++-----------------------+--------+------------------+
+; Selector_Operacion[1] ; -3.000 ; -3.000           ;
++-----------------------+--------+------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------+
+; Slow 1200mV 85C Model Minimum Pulse Width: 'Selector_Operacion[1]'                                                                           ;
++--------+--------------+----------------+------------------+-----------------------+------------+---------------------------------------------+
+; Slack  ; Actual Width ; Required Width ; Type             ; Clock                 ; Clock Edge ; Target                                      ;
++--------+--------------+----------------+------------------+-----------------------+------------+---------------------------------------------+
+; -3.000 ; 1.000        ; 4.000          ; Port Rate        ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]                       ;
+; 0.326  ; 0.326        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[0]               ;
+; 0.326  ; 0.326        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[1]               ;
+; 0.327  ; 0.327        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|NZVC[0]                        ;
+; 0.327  ; 0.327        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|NZVC[3]                        ;
+; 0.327  ; 0.327        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[2]               ;
+; 0.327  ; 0.327        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[3]               ;
+; 0.327  ; 0.327        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[5]               ;
+; 0.327  ; 0.327        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[6]               ;
+; 0.333  ; 0.333        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|NZVC[2]|datac                      ;
+; 0.334  ; 0.334        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|NZVC[1]|datac                      ;
+; 0.334  ; 0.334        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[4]|datac             ;
+; 0.335  ; 0.335        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[0]|datad             ;
+; 0.335  ; 0.335        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[1]|datad             ;
+; 0.336  ; 0.336        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|NZVC[0]|datad                      ;
+; 0.336  ; 0.336        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|NZVC[3]|datad                      ;
+; 0.336  ; 0.336        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[2]|datad             ;
+; 0.336  ; 0.336        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[3]|datad             ;
+; 0.336  ; 0.336        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[5]|datad             ;
+; 0.336  ; 0.336        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[6]|datad             ;
+; 0.339  ; 0.339        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|NZVC[2]                        ;
+; 0.339  ; 0.339        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]~input|o               ;
+; 0.340  ; 0.340        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|NZVC[1]                        ;
+; 0.340  ; 0.340        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[4]               ;
+; 0.356  ; 0.356        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]~inputclkctrl|inclk[0] ;
+; 0.356  ; 0.356        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]~inputclkctrl|outclk   ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]~input|i               ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]~input|i               ;
+; 0.643  ; 0.643        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]~inputclkctrl|inclk[0] ;
+; 0.643  ; 0.643        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]~inputclkctrl|outclk   ;
+; 0.659  ; 0.659        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[4]               ;
+; 0.660  ; 0.660        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|NZVC[1]                        ;
+; 0.660  ; 0.660        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|NZVC[2]                        ;
+; 0.661  ; 0.661        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]~input|o               ;
+; 0.664  ; 0.664        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|NZVC[0]|datad                      ;
+; 0.664  ; 0.664        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|NZVC[3]|datad                      ;
+; 0.664  ; 0.664        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[0]|datad             ;
+; 0.664  ; 0.664        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[1]|datad             ;
+; 0.664  ; 0.664        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[2]|datad             ;
+; 0.664  ; 0.664        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[3]|datad             ;
+; 0.664  ; 0.664        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[5]|datad             ;
+; 0.664  ; 0.664        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[6]|datad             ;
+; 0.665  ; 0.665        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[4]|datac             ;
+; 0.666  ; 0.666        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|NZVC[1]|datac                      ;
+; 0.666  ; 0.666        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|NZVC[2]|datac                      ;
+; 0.673  ; 0.673        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|NZVC[0]                        ;
+; 0.673  ; 0.673        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|NZVC[3]                        ;
+; 0.673  ; 0.673        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[0]               ;
+; 0.673  ; 0.673        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[1]               ;
+; 0.673  ; 0.673        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[2]               ;
+; 0.673  ; 0.673        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[3]               ;
+; 0.673  ; 0.673        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[5]               ;
+; 0.673  ; 0.673        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[6]               ;
++--------+--------------+----------------+------------------+-----------------------+------------+---------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; Setup Times                                                                                         ;
++------------------------+-----------------------+-------+-------+------------+-----------------------+
+; Data Port              ; Clock Port            ; Rise  ; Fall  ; Clock Edge ; Clock Reference       ;
++------------------------+-----------------------+-------+-------+------------+-----------------------+
+; Input_A[*]             ; Selector_Operacion[1] ; 6.938 ; 7.367 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[0]            ; Selector_Operacion[1] ; 6.818 ; 7.282 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[1]            ; Selector_Operacion[1] ; 6.622 ; 7.316 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[2]            ; Selector_Operacion[1] ; 6.938 ; 7.367 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[3]            ; Selector_Operacion[1] ; 6.495 ; 7.171 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[4]            ; Selector_Operacion[1] ; 6.776 ; 7.048 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[5]            ; Selector_Operacion[1] ; 6.288 ; 6.749 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[6]            ; Selector_Operacion[1] ; 6.685 ; 7.051 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[7]            ; Selector_Operacion[1] ; 3.814 ; 3.976 ; Rise       ; Selector_Operacion[1] ;
+; Input_B[*]             ; Selector_Operacion[1] ; 7.011 ; 7.570 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[0]            ; Selector_Operacion[1] ; 7.011 ; 7.570 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[1]            ; Selector_Operacion[1] ; 6.811 ; 7.131 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[2]            ; Selector_Operacion[1] ; 6.671 ; 7.220 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[3]            ; Selector_Operacion[1] ; 6.782 ; 7.050 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[4]            ; Selector_Operacion[1] ; 6.643 ; 7.366 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[5]            ; Selector_Operacion[1] ; 6.251 ; 6.729 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[6]            ; Selector_Operacion[1] ; 6.074 ; 6.823 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[7]            ; Selector_Operacion[1] ; 3.955 ; 4.068 ; Rise       ; Selector_Operacion[1] ;
+; Selector_Operacion[*]  ; Selector_Operacion[1] ; 4.847 ; 5.452 ; Rise       ; Selector_Operacion[1] ;
+;  Selector_Operacion[0] ; Selector_Operacion[1] ; 4.847 ; 5.452 ; Rise       ; Selector_Operacion[1] ;
++------------------------+-----------------------+-------+-------+------------+-----------------------+
+
+
++-------------------------------------------------------------------------------------------------------+
+; Hold Times                                                                                            ;
++------------------------+-----------------------+--------+--------+------------+-----------------------+
+; Data Port              ; Clock Port            ; Rise   ; Fall   ; Clock Edge ; Clock Reference       ;
++------------------------+-----------------------+--------+--------+------------+-----------------------+
+; Input_A[*]             ; Selector_Operacion[1] ; -0.595 ; -0.740 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[0]            ; Selector_Operacion[1] ; -3.109 ; -3.560 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[1]            ; Selector_Operacion[1] ; -2.774 ; -3.287 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[2]            ; Selector_Operacion[1] ; -3.071 ; -3.554 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[3]            ; Selector_Operacion[1] ; -2.958 ; -3.432 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[4]            ; Selector_Operacion[1] ; -3.282 ; -3.768 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[5]            ; Selector_Operacion[1] ; -3.254 ; -3.686 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[6]            ; Selector_Operacion[1] ; -3.466 ; -4.009 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[7]            ; Selector_Operacion[1] ; -0.595 ; -0.740 ; Rise       ; Selector_Operacion[1] ;
+; Input_B[*]             ; Selector_Operacion[1] ; -0.880 ; -1.013 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[0]            ; Selector_Operacion[1] ; -3.309 ; -3.844 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[1]            ; Selector_Operacion[1] ; -2.809 ; -3.293 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[2]            ; Selector_Operacion[1] ; -2.888 ; -3.365 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[3]            ; Selector_Operacion[1] ; -3.041 ; -3.505 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[4]            ; Selector_Operacion[1] ; -3.076 ; -3.555 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[5]            ; Selector_Operacion[1] ; -3.144 ; -3.625 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[6]            ; Selector_Operacion[1] ; -3.074 ; -3.549 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[7]            ; Selector_Operacion[1] ; -0.880 ; -1.013 ; Rise       ; Selector_Operacion[1] ;
+; Selector_Operacion[*]  ; Selector_Operacion[1] ; -2.002 ; -2.458 ; Rise       ; Selector_Operacion[1] ;
+;  Selector_Operacion[0] ; Selector_Operacion[1] ; -2.002 ; -2.458 ; Rise       ; Selector_Operacion[1] ;
++------------------------+-----------------------+--------+--------+------------+-----------------------+
+
+
++----------------------------------------------------------------------------------------------+
+; Clock to Output Times                                                                        ;
++-----------------+-----------------------+-------+-------+------------+-----------------------+
+; Data Port       ; Clock Port            ; Rise  ; Fall  ; Clock Edge ; Clock Reference       ;
++-----------------+-----------------------+-------+-------+------------+-----------------------+
+; NZVC_vector[*]  ; Selector_Operacion[1] ; 5.621 ; 5.602 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[0] ; Selector_Operacion[1] ; 5.591 ; 5.576 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[1] ; Selector_Operacion[1] ; 5.621 ; 5.602 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[2] ; Selector_Operacion[1] ; 5.610 ; 5.583 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[3] ; Selector_Operacion[1] ; 5.584 ; 5.564 ; Rise       ; Selector_Operacion[1] ;
+; decenas[*]      ; Selector_Operacion[1] ; 7.625 ; 7.743 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[0]     ; Selector_Operacion[1] ; 6.249 ; 6.322 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[1]     ; Selector_Operacion[1] ; 7.625 ; 7.743 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[2]     ; Selector_Operacion[1] ; 6.249 ; 6.304 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[3]     ; Selector_Operacion[1] ; 6.261 ; 6.179 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[4]     ; Selector_Operacion[1] ; 6.591 ; 6.475 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[5]     ; Selector_Operacion[1] ; 6.288 ; 6.271 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[6]     ; Selector_Operacion[1] ; 6.452 ; 6.468 ; Rise       ; Selector_Operacion[1] ;
+; unidades[*]     ; Selector_Operacion[1] ; 6.377 ; 6.414 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[0]    ; Selector_Operacion[1] ; 6.377 ; 6.414 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[1]    ; Selector_Operacion[1] ; 6.217 ; 6.137 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[2]    ; Selector_Operacion[1] ; 6.227 ; 6.196 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[3]    ; Selector_Operacion[1] ; 6.246 ; 6.214 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[4]    ; Selector_Operacion[1] ; 6.364 ; 6.262 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[5]    ; Selector_Operacion[1] ; 6.331 ; 6.337 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[6]    ; Selector_Operacion[1] ; 6.208 ; 6.168 ; Rise       ; Selector_Operacion[1] ;
++-----------------+-----------------------+-------+-------+------------+-----------------------+
+
+
++----------------------------------------------------------------------------------------------+
+; Minimum Clock to Output Times                                                                ;
++-----------------+-----------------------+-------+-------+------------+-----------------------+
+; Data Port       ; Clock Port            ; Rise  ; Fall  ; Clock Edge ; Clock Reference       ;
++-----------------+-----------------------+-------+-------+------------+-----------------------+
+; NZVC_vector[*]  ; Selector_Operacion[1] ; 5.475 ; 5.453 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[0] ; Selector_Operacion[1] ; 5.480 ; 5.463 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[1] ; Selector_Operacion[1] ; 5.509 ; 5.490 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[2] ; Selector_Operacion[1] ; 5.499 ; 5.471 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[3] ; Selector_Operacion[1] ; 5.475 ; 5.453 ; Rise       ; Selector_Operacion[1] ;
+; decenas[*]      ; Selector_Operacion[1] ; 5.730 ; 5.655 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[0]     ; Selector_Operacion[1] ; 5.782 ; 5.825 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[1]     ; Selector_Operacion[1] ; 7.160 ; 7.215 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[2]     ; Selector_Operacion[1] ; 5.782 ; 5.752 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[3]     ; Selector_Operacion[1] ; 5.730 ; 5.655 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[4]     ; Selector_Operacion[1] ; 6.031 ; 5.962 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[5]     ; Selector_Operacion[1] ; 5.781 ; 5.780 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[6]     ; Selector_Operacion[1] ; 5.975 ; 5.932 ; Rise       ; Selector_Operacion[1] ;
+; unidades[*]     ; Selector_Operacion[1] ; 5.742 ; 5.693 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[0]    ; Selector_Operacion[1] ; 5.919 ; 5.987 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[1]    ; Selector_Operacion[1] ; 5.761 ; 5.693 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[2]    ; Selector_Operacion[1] ; 5.826 ; 5.762 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[3]    ; Selector_Operacion[1] ; 5.789 ; 5.767 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[4]    ; Selector_Operacion[1] ; 5.917 ; 5.871 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[5]    ; Selector_Operacion[1] ; 5.883 ; 5.866 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[6]    ; Selector_Operacion[1] ; 5.742 ; 5.713 ; Rise       ; Selector_Operacion[1] ;
++-----------------+-----------------------+-------+-------+------------+-----------------------+
+
+
+----------------------------------------------
+; Slow 1200mV 85C Model Metastability Report ;
+----------------------------------------------
+No synchronizer chains to report.
+
+
+-------------------------------------
+; Slow 1200mV 0C Model Fmax Summary ;
+-------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1200mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Slow 1200mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Slow 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
++--------------------------------------------------+
+; Slow 1200mV 0C Model Minimum Pulse Width Summary ;
++-----------------------+--------+-----------------+
+; Clock                 ; Slack  ; End Point TNS   ;
++-----------------------+--------+-----------------+
+; Selector_Operacion[1] ; -3.000 ; -3.000          ;
++-----------------------+--------+-----------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------+
+; Slow 1200mV 0C Model Minimum Pulse Width: 'Selector_Operacion[1]'                                                                            ;
++--------+--------------+----------------+------------------+-----------------------+------------+---------------------------------------------+
+; Slack  ; Actual Width ; Required Width ; Type             ; Clock                 ; Clock Edge ; Target                                      ;
++--------+--------------+----------------+------------------+-----------------------+------------+---------------------------------------------+
+; -3.000 ; 1.000        ; 4.000          ; Port Rate        ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]                       ;
+; 0.326  ; 0.326        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|NZVC[0]                        ;
+; 0.327  ; 0.327        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|NZVC[3]                        ;
+; 0.327  ; 0.327        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[0]               ;
+; 0.327  ; 0.327        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[1]               ;
+; 0.327  ; 0.327        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[2]               ;
+; 0.327  ; 0.327        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[3]               ;
+; 0.327  ; 0.327        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[5]               ;
+; 0.327  ; 0.327        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[6]               ;
+; 0.331  ; 0.331        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|NZVC[1]                        ;
+; 0.331  ; 0.331        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[4]               ;
+; 0.331  ; 0.331        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|NZVC[1]|datac                      ;
+; 0.331  ; 0.331        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[4]|datac             ;
+; 0.332  ; 0.332        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|NZVC[2]                        ;
+; 0.332  ; 0.332        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|NZVC[2]|datac                      ;
+; 0.336  ; 0.336        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|NZVC[0]|datad                      ;
+; 0.337  ; 0.337        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|NZVC[3]|datad                      ;
+; 0.337  ; 0.337        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[0]|datad             ;
+; 0.337  ; 0.337        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[1]|datad             ;
+; 0.337  ; 0.337        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[2]|datad             ;
+; 0.337  ; 0.337        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[3]|datad             ;
+; 0.337  ; 0.337        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[5]|datad             ;
+; 0.337  ; 0.337        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[6]|datad             ;
+; 0.339  ; 0.339        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]~input|o               ;
+; 0.348  ; 0.348        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]~inputclkctrl|inclk[0] ;
+; 0.348  ; 0.348        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]~inputclkctrl|outclk   ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]~input|i               ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]~input|i               ;
+; 0.651  ; 0.651        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]~inputclkctrl|inclk[0] ;
+; 0.651  ; 0.651        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]~inputclkctrl|outclk   ;
+; 0.661  ; 0.661        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]~input|o               ;
+; 0.662  ; 0.662        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[1]|datad             ;
+; 0.662  ; 0.662        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[2]|datad             ;
+; 0.662  ; 0.662        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[3]|datad             ;
+; 0.663  ; 0.663        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|NZVC[0]|datad                      ;
+; 0.663  ; 0.663        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|NZVC[3]|datad                      ;
+; 0.663  ; 0.663        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[0]|datad             ;
+; 0.663  ; 0.663        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[5]|datad             ;
+; 0.663  ; 0.663        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[6]|datad             ;
+; 0.667  ; 0.667        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|NZVC[1]                        ;
+; 0.667  ; 0.667        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|NZVC[2]                        ;
+; 0.668  ; 0.668        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[4]               ;
+; 0.668  ; 0.668        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|NZVC[1]|datac                      ;
+; 0.668  ; 0.668        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|NZVC[2]|datac                      ;
+; 0.669  ; 0.669        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[4]|datac             ;
+; 0.672  ; 0.672        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[1]               ;
+; 0.672  ; 0.672        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[2]               ;
+; 0.672  ; 0.672        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[3]               ;
+; 0.673  ; 0.673        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|NZVC[0]                        ;
+; 0.673  ; 0.673        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|NZVC[3]                        ;
+; 0.673  ; 0.673        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[0]               ;
+; 0.673  ; 0.673        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[5]               ;
+; 0.673  ; 0.673        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[6]               ;
++--------+--------------+----------------+------------------+-----------------------+------------+---------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; Setup Times                                                                                         ;
++------------------------+-----------------------+-------+-------+------------+-----------------------+
+; Data Port              ; Clock Port            ; Rise  ; Fall  ; Clock Edge ; Clock Reference       ;
++------------------------+-----------------------+-------+-------+------------+-----------------------+
+; Input_A[*]             ; Selector_Operacion[1] ; 6.141 ; 6.516 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[0]            ; Selector_Operacion[1] ; 6.031 ; 6.425 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[1]            ; Selector_Operacion[1] ; 5.866 ; 6.460 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[2]            ; Selector_Operacion[1] ; 6.141 ; 6.516 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[3]            ; Selector_Operacion[1] ; 5.747 ; 6.328 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[4]            ; Selector_Operacion[1] ; 6.010 ; 6.260 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[5]            ; Selector_Operacion[1] ; 5.575 ; 5.960 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[6]            ; Selector_Operacion[1] ; 5.935 ; 6.219 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[7]            ; Selector_Operacion[1] ; 3.445 ; 3.636 ; Rise       ; Selector_Operacion[1] ;
+; Input_B[*]             ; Selector_Operacion[1] ; 6.228 ; 6.695 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[0]            ; Selector_Operacion[1] ; 6.228 ; 6.695 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[1]            ; Selector_Operacion[1] ; 6.034 ; 6.290 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[2]            ; Selector_Operacion[1] ; 5.918 ; 6.372 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[3]            ; Selector_Operacion[1] ; 6.010 ; 6.209 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[4]            ; Selector_Operacion[1] ; 5.932 ; 6.499 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[5]            ; Selector_Operacion[1] ; 5.523 ; 5.937 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[6]            ; Selector_Operacion[1] ; 5.387 ; 6.009 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[7]            ; Selector_Operacion[1] ; 3.570 ; 3.732 ; Rise       ; Selector_Operacion[1] ;
+; Selector_Operacion[*]  ; Selector_Operacion[1] ; 4.345 ; 4.779 ; Rise       ; Selector_Operacion[1] ;
+;  Selector_Operacion[0] ; Selector_Operacion[1] ; 4.345 ; 4.779 ; Rise       ; Selector_Operacion[1] ;
++------------------------+-----------------------+-------+-------+------------+-----------------------+
+
+
++-------------------------------------------------------------------------------------------------------+
+; Hold Times                                                                                            ;
++------------------------+-----------------------+--------+--------+------------+-----------------------+
+; Data Port              ; Clock Port            ; Rise   ; Fall   ; Clock Edge ; Clock Reference       ;
++------------------------+-----------------------+--------+--------+------------+-----------------------+
+; Input_A[*]             ; Selector_Operacion[1] ; -0.559 ; -0.726 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[0]            ; Selector_Operacion[1] ; -2.731 ; -3.108 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[1]            ; Selector_Operacion[1] ; -2.437 ; -2.861 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[2]            ; Selector_Operacion[1] ; -2.717 ; -3.113 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[3]            ; Selector_Operacion[1] ; -2.605 ; -3.002 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[4]            ; Selector_Operacion[1] ; -2.917 ; -3.314 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[5]            ; Selector_Operacion[1] ; -2.877 ; -3.239 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[6]            ; Selector_Operacion[1] ; -3.058 ; -3.515 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[7]            ; Selector_Operacion[1] ; -0.559 ; -0.726 ; Rise       ; Selector_Operacion[1] ;
+; Input_B[*]             ; Selector_Operacion[1] ; -0.821 ; -0.957 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[0]            ; Selector_Operacion[1] ; -2.927 ; -3.379 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[1]            ; Selector_Operacion[1] ; -2.473 ; -2.858 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[2]            ; Selector_Operacion[1] ; -2.564 ; -2.936 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[3]            ; Selector_Operacion[1] ; -2.675 ; -3.058 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[4]            ; Selector_Operacion[1] ; -2.722 ; -3.123 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[5]            ; Selector_Operacion[1] ; -2.774 ; -3.173 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[6]            ; Selector_Operacion[1] ; -2.695 ; -3.105 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[7]            ; Selector_Operacion[1] ; -0.821 ; -0.957 ; Rise       ; Selector_Operacion[1] ;
+; Selector_Operacion[*]  ; Selector_Operacion[1] ; -1.738 ; -2.124 ; Rise       ; Selector_Operacion[1] ;
+;  Selector_Operacion[0] ; Selector_Operacion[1] ; -1.738 ; -2.124 ; Rise       ; Selector_Operacion[1] ;
++------------------------+-----------------------+--------+--------+------------+-----------------------+
+
+
++----------------------------------------------------------------------------------------------+
+; Clock to Output Times                                                                        ;
++-----------------+-----------------------+-------+-------+------------+-----------------------+
+; Data Port       ; Clock Port            ; Rise  ; Fall  ; Clock Edge ; Clock Reference       ;
++-----------------+-----------------------+-------+-------+------------+-----------------------+
+; NZVC_vector[*]  ; Selector_Operacion[1] ; 5.332 ; 5.275 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[0] ; Selector_Operacion[1] ; 5.307 ; 5.255 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[1] ; Selector_Operacion[1] ; 5.332 ; 5.275 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[2] ; Selector_Operacion[1] ; 5.327 ; 5.259 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[3] ; Selector_Operacion[1] ; 5.306 ; 5.254 ; Rise       ; Selector_Operacion[1] ;
+; decenas[*]      ; Selector_Operacion[1] ; 7.272 ; 7.359 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[0]     ; Selector_Operacion[1] ; 5.873 ; 5.972 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[1]     ; Selector_Operacion[1] ; 7.272 ; 7.359 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[2]     ; Selector_Operacion[1] ; 5.898 ; 5.902 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[3]     ; Selector_Operacion[1] ; 5.908 ; 5.798 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[4]     ; Selector_Operacion[1] ; 6.207 ; 6.091 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[5]     ; Selector_Operacion[1] ; 5.927 ; 5.873 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[6]     ; Selector_Operacion[1] ; 6.084 ; 6.065 ; Rise       ; Selector_Operacion[1] ;
+; unidades[*]     ; Selector_Operacion[1] ; 6.011 ; 6.061 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[0]    ; Selector_Operacion[1] ; 5.998 ; 6.061 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[1]    ; Selector_Operacion[1] ; 5.861 ; 5.806 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[2]    ; Selector_Operacion[1] ; 5.872 ; 5.809 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[3]    ; Selector_Operacion[1] ; 5.894 ; 5.829 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[4]    ; Selector_Operacion[1] ; 6.011 ; 5.904 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[5]    ; Selector_Operacion[1] ; 5.987 ; 5.954 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[6]    ; Selector_Operacion[1] ; 5.857 ; 5.783 ; Rise       ; Selector_Operacion[1] ;
++-----------------+-----------------------+-------+-------+------------+-----------------------+
+
+
++----------------------------------------------------------------------------------------------+
+; Minimum Clock to Output Times                                                                ;
++-----------------+-----------------------+-------+-------+------------+-----------------------+
+; Data Port       ; Clock Port            ; Rise  ; Fall  ; Clock Edge ; Clock Reference       ;
++-----------------+-----------------------+-------+-------+------------+-----------------------+
+; NZVC_vector[*]  ; Selector_Operacion[1] ; 5.206 ; 5.154 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[0] ; Selector_Operacion[1] ; 5.207 ; 5.155 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[1] ; Selector_Operacion[1] ; 5.231 ; 5.174 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[2] ; Selector_Operacion[1] ; 5.227 ; 5.160 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[3] ; Selector_Operacion[1] ; 5.206 ; 5.154 ; Rise       ; Selector_Operacion[1] ;
+; decenas[*]      ; Selector_Operacion[1] ; 5.442 ; 5.340 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[0]     ; Selector_Operacion[1] ; 5.460 ; 5.542 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[1]     ; Selector_Operacion[1] ; 6.868 ; 6.896 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[2]     ; Selector_Operacion[1] ; 5.483 ; 5.417 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[3]     ; Selector_Operacion[1] ; 5.442 ; 5.340 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[4]     ; Selector_Operacion[1] ; 5.717 ; 5.644 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[5]     ; Selector_Operacion[1] ; 5.484 ; 5.439 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[6]     ; Selector_Operacion[1] ; 5.664 ; 5.594 ; Rise       ; Selector_Operacion[1] ;
+; unidades[*]     ; Selector_Operacion[1] ; 5.440 ; 5.376 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[0]    ; Selector_Operacion[1] ; 5.586 ; 5.680 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[1]    ; Selector_Operacion[1] ; 5.462 ; 5.408 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[2]    ; Selector_Operacion[1] ; 5.514 ; 5.424 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[3]    ; Selector_Operacion[1] ; 5.487 ; 5.430 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[4]    ; Selector_Operacion[1] ; 5.610 ; 5.562 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[5]    ; Selector_Operacion[1] ; 5.585 ; 5.533 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[6]    ; Selector_Operacion[1] ; 5.440 ; 5.376 ; Rise       ; Selector_Operacion[1] ;
++-----------------+-----------------------+-------+-------+------------+-----------------------+
+
+
+---------------------------------------------
+; Slow 1200mV 0C Model Metastability Report ;
+---------------------------------------------
+No synchronizer chains to report.
+
+
+--------------------------------------
+; Fast 1200mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Fast 1200mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Fast 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Fast 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
++--------------------------------------------------+
+; Fast 1200mV 0C Model Minimum Pulse Width Summary ;
++-----------------------+--------+-----------------+
+; Clock                 ; Slack  ; End Point TNS   ;
++-----------------------+--------+-----------------+
+; Selector_Operacion[1] ; -3.000 ; -3.000          ;
++-----------------------+--------+-----------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------+
+; Fast 1200mV 0C Model Minimum Pulse Width: 'Selector_Operacion[1]'                                                                            ;
++--------+--------------+----------------+------------------+-----------------------+------------+---------------------------------------------+
+; Slack  ; Actual Width ; Required Width ; Type             ; Clock                 ; Clock Edge ; Target                                      ;
++--------+--------------+----------------+------------------+-----------------------+------------+---------------------------------------------+
+; -3.000 ; 1.000        ; 4.000          ; Port Rate        ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]                       ;
+; 0.093  ; 0.093        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[6]               ;
+; 0.094  ; 0.094        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|NZVC[0]                        ;
+; 0.094  ; 0.094        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|NZVC[3]                        ;
+; 0.094  ; 0.094        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[5]               ;
+; 0.095  ; 0.095        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[0]               ;
+; 0.095  ; 0.095        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[1]               ;
+; 0.095  ; 0.095        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[2]               ;
+; 0.095  ; 0.095        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[3]               ;
+; 0.099  ; 0.099        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[4]|datac             ;
+; 0.099  ; 0.099        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[6]|datad             ;
+; 0.100  ; 0.100        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|NZVC[0]|datad                      ;
+; 0.100  ; 0.100        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|NZVC[1]|datac                      ;
+; 0.100  ; 0.100        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|NZVC[2]|datac                      ;
+; 0.100  ; 0.100        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|NZVC[3]|datad                      ;
+; 0.100  ; 0.100        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[5]|datad             ;
+; 0.101  ; 0.101        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[0]|datad             ;
+; 0.101  ; 0.101        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[1]|datad             ;
+; 0.101  ; 0.101        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[2]|datad             ;
+; 0.101  ; 0.101        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[3]|datad             ;
+; 0.103  ; 0.103        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[4]               ;
+; 0.104  ; 0.104        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|NZVC[1]                        ;
+; 0.104  ; 0.104        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|NZVC[2]                        ;
+; 0.118  ; 0.118        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]~input|o               ;
+; 0.132  ; 0.132        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]~inputclkctrl|inclk[0] ;
+; 0.132  ; 0.132        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]~inputclkctrl|outclk   ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]~input|i               ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]~input|i               ;
+; 0.867  ; 0.867        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]~inputclkctrl|inclk[0] ;
+; 0.867  ; 0.867        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]~inputclkctrl|outclk   ;
+; 0.882  ; 0.882        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Selector_Operacion[1]~input|o               ;
+; 0.895  ; 0.895        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|NZVC[2]                        ;
+; 0.896  ; 0.896        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|NZVC[1]                        ;
+; 0.896  ; 0.896        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[4]               ;
+; 0.898  ; 0.898        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[1]|datad             ;
+; 0.898  ; 0.898        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[2]|datad             ;
+; 0.898  ; 0.898        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[3]|datad             ;
+; 0.899  ; 0.899        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|NZVC[2]|datac                      ;
+; 0.899  ; 0.899        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[0]|datad             ;
+; 0.900  ; 0.900        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|NZVC[0]|datad                      ;
+; 0.900  ; 0.900        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|NZVC[1]|datac                      ;
+; 0.900  ; 0.900        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|NZVC[3]|datad                      ;
+; 0.900  ; 0.900        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[4]|datac             ;
+; 0.900  ; 0.900        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[5]|datad             ;
+; 0.900  ; 0.900        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; Port_ALU|Output_Result[6]|datad             ;
+; 0.903  ; 0.903        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[1]               ;
+; 0.903  ; 0.903        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[2]               ;
+; 0.903  ; 0.903        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[3]               ;
+; 0.904  ; 0.904        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[0]               ;
+; 0.905  ; 0.905        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|NZVC[0]                        ;
+; 0.905  ; 0.905        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|NZVC[3]                        ;
+; 0.905  ; 0.905        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[5]               ;
+; 0.905  ; 0.905        ; 0.000          ; High Pulse Width ; Selector_Operacion[1] ; Rise       ; ALU:Port_ALU|Output_Result[6]               ;
++--------+--------------+----------------+------------------+-----------------------+------------+---------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; Setup Times                                                                                         ;
++------------------------+-----------------------+-------+-------+------------+-----------------------+
+; Data Port              ; Clock Port            ; Rise  ; Fall  ; Clock Edge ; Clock Reference       ;
++------------------------+-----------------------+-------+-------+------------+-----------------------+
+; Input_A[*]             ; Selector_Operacion[1] ; 3.921 ; 4.533 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[0]            ; Selector_Operacion[1] ; 3.865 ; 4.485 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[1]            ; Selector_Operacion[1] ; 3.748 ; 4.505 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[2]            ; Selector_Operacion[1] ; 3.921 ; 4.533 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[3]            ; Selector_Operacion[1] ; 3.669 ; 4.402 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[4]            ; Selector_Operacion[1] ; 3.825 ; 4.366 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[5]            ; Selector_Operacion[1] ; 3.520 ; 4.138 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[6]            ; Selector_Operacion[1] ; 3.763 ; 4.333 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[7]            ; Selector_Operacion[1] ; 2.119 ; 2.435 ; Rise       ; Selector_Operacion[1] ;
+; Input_B[*]             ; Selector_Operacion[1] ; 3.977 ; 4.676 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[0]            ; Selector_Operacion[1] ; 3.977 ; 4.676 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[1]            ; Selector_Operacion[1] ; 3.848 ; 4.390 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[2]            ; Selector_Operacion[1] ; 3.771 ; 4.455 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[3]            ; Selector_Operacion[1] ; 3.816 ; 4.341 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[4]            ; Selector_Operacion[1] ; 3.756 ; 4.548 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[5]            ; Selector_Operacion[1] ; 3.507 ; 4.138 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[6]            ; Selector_Operacion[1] ; 3.421 ; 4.180 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[7]            ; Selector_Operacion[1] ; 2.226 ; 2.488 ; Rise       ; Selector_Operacion[1] ;
+; Selector_Operacion[*]  ; Selector_Operacion[1] ; 2.661 ; 3.467 ; Rise       ; Selector_Operacion[1] ;
+;  Selector_Operacion[0] ; Selector_Operacion[1] ; 2.661 ; 3.467 ; Rise       ; Selector_Operacion[1] ;
++------------------------+-----------------------+-------+-------+------------+-----------------------+
+
+
++-------------------------------------------------------------------------------------------------------+
+; Hold Times                                                                                            ;
++------------------------+-----------------------+--------+--------+------------+-----------------------+
+; Data Port              ; Clock Port            ; Rise   ; Fall   ; Clock Edge ; Clock Reference       ;
++------------------------+-----------------------+--------+--------+------------+-----------------------+
+; Input_A[*]             ; Selector_Operacion[1] ; -0.329 ; -0.618 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[0]            ; Selector_Operacion[1] ; -1.732 ; -2.335 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[1]            ; Selector_Operacion[1] ; -1.542 ; -2.185 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[2]            ; Selector_Operacion[1] ; -1.713 ; -2.340 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[3]            ; Selector_Operacion[1] ; -1.633 ; -2.251 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[4]            ; Selector_Operacion[1] ; -1.813 ; -2.465 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[5]            ; Selector_Operacion[1] ; -1.802 ; -2.405 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[6]            ; Selector_Operacion[1] ; -1.957 ; -2.619 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[7]            ; Selector_Operacion[1] ; -0.329 ; -0.618 ; Rise       ; Selector_Operacion[1] ;
+; Input_B[*]             ; Selector_Operacion[1] ; -0.498 ; -0.784 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[0]            ; Selector_Operacion[1] ; -1.841 ; -2.528 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[1]            ; Selector_Operacion[1] ; -1.551 ; -2.181 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[2]            ; Selector_Operacion[1] ; -1.590 ; -2.228 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[3]            ; Selector_Operacion[1] ; -1.673 ; -2.291 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[4]            ; Selector_Operacion[1] ; -1.700 ; -2.342 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[5]            ; Selector_Operacion[1] ; -1.750 ; -2.375 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[6]            ; Selector_Operacion[1] ; -1.738 ; -2.338 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[7]            ; Selector_Operacion[1] ; -0.498 ; -0.784 ; Rise       ; Selector_Operacion[1] ;
+; Selector_Operacion[*]  ; Selector_Operacion[1] ; -1.113 ; -1.736 ; Rise       ; Selector_Operacion[1] ;
+;  Selector_Operacion[0] ; Selector_Operacion[1] ; -1.113 ; -1.736 ; Rise       ; Selector_Operacion[1] ;
++------------------------+-----------------------+--------+--------+------------+-----------------------+
+
+
++----------------------------------------------------------------------------------------------+
+; Clock to Output Times                                                                        ;
++-----------------+-----------------------+-------+-------+------------+-----------------------+
+; Data Port       ; Clock Port            ; Rise  ; Fall  ; Clock Edge ; Clock Reference       ;
++-----------------+-----------------------+-------+-------+------------+-----------------------+
+; NZVC_vector[*]  ; Selector_Operacion[1] ; 3.352 ; 3.412 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[0] ; Selector_Operacion[1] ; 3.336 ; 3.405 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[1] ; Selector_Operacion[1] ; 3.352 ; 3.412 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[2] ; Selector_Operacion[1] ; 3.345 ; 3.402 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[3] ; Selector_Operacion[1] ; 3.333 ; 3.402 ; Rise       ; Selector_Operacion[1] ;
+; decenas[*]      ; Selector_Operacion[1] ; 4.621 ; 4.852 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[0]     ; Selector_Operacion[1] ; 3.787 ; 3.775 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[1]     ; Selector_Operacion[1] ; 4.621 ; 4.852 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[2]     ; Selector_Operacion[1] ; 3.711 ; 3.809 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[3]     ; Selector_Operacion[1] ; 3.672 ; 3.723 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[4]     ; Selector_Operacion[1] ; 3.897 ; 3.925 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[5]     ; Selector_Operacion[1] ; 3.726 ; 3.803 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[6]     ; Selector_Operacion[1] ; 3.826 ; 3.916 ; Rise       ; Selector_Operacion[1] ;
+; unidades[*]     ; Selector_Operacion[1] ; 3.882 ; 3.848 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[0]    ; Selector_Operacion[1] ; 3.882 ; 3.795 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[1]    ; Selector_Operacion[1] ; 3.695 ; 3.753 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[2]    ; Selector_Operacion[1] ; 3.696 ; 3.751 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[3]    ; Selector_Operacion[1] ; 3.710 ; 3.758 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[4]    ; Selector_Operacion[1] ; 3.766 ; 3.825 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[5]    ; Selector_Operacion[1] ; 3.771 ; 3.848 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[6]    ; Selector_Operacion[1] ; 3.684 ; 3.729 ; Rise       ; Selector_Operacion[1] ;
++-----------------+-----------------------+-------+-------+------------+-----------------------+
+
+
++----------------------------------------------------------------------------------------------+
+; Minimum Clock to Output Times                                                                ;
++-----------------+-----------------------+-------+-------+------------+-----------------------+
+; Data Port       ; Clock Port            ; Rise  ; Fall  ; Clock Edge ; Clock Reference       ;
++-----------------+-----------------------+-------+-------+------------+-----------------------+
+; NZVC_vector[*]  ; Selector_Operacion[1] ; 3.270 ; 3.335 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[0] ; Selector_Operacion[1] ; 3.273 ; 3.338 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[1] ; Selector_Operacion[1] ; 3.288 ; 3.345 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[2] ; Selector_Operacion[1] ; 3.281 ; 3.336 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[3] ; Selector_Operacion[1] ; 3.270 ; 3.335 ; Rise       ; Selector_Operacion[1] ;
+; decenas[*]      ; Selector_Operacion[1] ; 3.361 ; 3.427 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[0]     ; Selector_Operacion[1] ; 3.519 ; 3.486 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[1]     ; Selector_Operacion[1] ; 4.363 ; 4.554 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[2]     ; Selector_Operacion[1] ; 3.427 ; 3.490 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[3]     ; Selector_Operacion[1] ; 3.361 ; 3.427 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[4]     ; Selector_Operacion[1] ; 3.567 ; 3.643 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[5]     ; Selector_Operacion[1] ; 3.431 ; 3.526 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[6]     ; Selector_Operacion[1] ; 3.538 ; 3.611 ; Rise       ; Selector_Operacion[1] ;
+; unidades[*]     ; Selector_Operacion[1] ; 3.403 ; 3.464 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[0]    ; Selector_Operacion[1] ; 3.613 ; 3.537 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[1]    ; Selector_Operacion[1] ; 3.419 ; 3.488 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[2]    ; Selector_Operacion[1] ; 3.461 ; 3.499 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[3]    ; Selector_Operacion[1] ; 3.433 ; 3.498 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[4]    ; Selector_Operacion[1] ; 3.494 ; 3.596 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[5]    ; Selector_Operacion[1] ; 3.496 ; 3.570 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[6]    ; Selector_Operacion[1] ; 3.403 ; 3.464 ; Rise       ; Selector_Operacion[1] ;
++-----------------+-----------------------+-------+-------+------------+-----------------------+
+
+
+---------------------------------------------
+; Fast 1200mV 0C Model Metastability Report ;
+---------------------------------------------
+No synchronizer chains to report.
+
+
++----------------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                              ;
++------------------------+-------+------+----------+---------+---------------------+
+; Clock                  ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack       ; N/A   ; N/A  ; N/A      ; N/A     ; -3.000              ;
+;  Selector_Operacion[1] ; N/A   ; N/A  ; N/A      ; N/A     ; -3.000              ;
+; Design-wide TNS        ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; -3.0                ;
+;  Selector_Operacion[1] ; N/A   ; N/A  ; N/A      ; N/A     ; -3.000              ;
++------------------------+-------+------+----------+---------+---------------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; Setup Times                                                                                         ;
++------------------------+-----------------------+-------+-------+------------+-----------------------+
+; Data Port              ; Clock Port            ; Rise  ; Fall  ; Clock Edge ; Clock Reference       ;
++------------------------+-----------------------+-------+-------+------------+-----------------------+
+; Input_A[*]             ; Selector_Operacion[1] ; 6.938 ; 7.367 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[0]            ; Selector_Operacion[1] ; 6.818 ; 7.282 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[1]            ; Selector_Operacion[1] ; 6.622 ; 7.316 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[2]            ; Selector_Operacion[1] ; 6.938 ; 7.367 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[3]            ; Selector_Operacion[1] ; 6.495 ; 7.171 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[4]            ; Selector_Operacion[1] ; 6.776 ; 7.048 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[5]            ; Selector_Operacion[1] ; 6.288 ; 6.749 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[6]            ; Selector_Operacion[1] ; 6.685 ; 7.051 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[7]            ; Selector_Operacion[1] ; 3.814 ; 3.976 ; Rise       ; Selector_Operacion[1] ;
+; Input_B[*]             ; Selector_Operacion[1] ; 7.011 ; 7.570 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[0]            ; Selector_Operacion[1] ; 7.011 ; 7.570 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[1]            ; Selector_Operacion[1] ; 6.811 ; 7.131 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[2]            ; Selector_Operacion[1] ; 6.671 ; 7.220 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[3]            ; Selector_Operacion[1] ; 6.782 ; 7.050 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[4]            ; Selector_Operacion[1] ; 6.643 ; 7.366 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[5]            ; Selector_Operacion[1] ; 6.251 ; 6.729 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[6]            ; Selector_Operacion[1] ; 6.074 ; 6.823 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[7]            ; Selector_Operacion[1] ; 3.955 ; 4.068 ; Rise       ; Selector_Operacion[1] ;
+; Selector_Operacion[*]  ; Selector_Operacion[1] ; 4.847 ; 5.452 ; Rise       ; Selector_Operacion[1] ;
+;  Selector_Operacion[0] ; Selector_Operacion[1] ; 4.847 ; 5.452 ; Rise       ; Selector_Operacion[1] ;
++------------------------+-----------------------+-------+-------+------------+-----------------------+
+
+
++-------------------------------------------------------------------------------------------------------+
+; Hold Times                                                                                            ;
++------------------------+-----------------------+--------+--------+------------+-----------------------+
+; Data Port              ; Clock Port            ; Rise   ; Fall   ; Clock Edge ; Clock Reference       ;
++------------------------+-----------------------+--------+--------+------------+-----------------------+
+; Input_A[*]             ; Selector_Operacion[1] ; -0.329 ; -0.618 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[0]            ; Selector_Operacion[1] ; -1.732 ; -2.335 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[1]            ; Selector_Operacion[1] ; -1.542 ; -2.185 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[2]            ; Selector_Operacion[1] ; -1.713 ; -2.340 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[3]            ; Selector_Operacion[1] ; -1.633 ; -2.251 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[4]            ; Selector_Operacion[1] ; -1.813 ; -2.465 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[5]            ; Selector_Operacion[1] ; -1.802 ; -2.405 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[6]            ; Selector_Operacion[1] ; -1.957 ; -2.619 ; Rise       ; Selector_Operacion[1] ;
+;  Input_A[7]            ; Selector_Operacion[1] ; -0.329 ; -0.618 ; Rise       ; Selector_Operacion[1] ;
+; Input_B[*]             ; Selector_Operacion[1] ; -0.498 ; -0.784 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[0]            ; Selector_Operacion[1] ; -1.841 ; -2.528 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[1]            ; Selector_Operacion[1] ; -1.551 ; -2.181 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[2]            ; Selector_Operacion[1] ; -1.590 ; -2.228 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[3]            ; Selector_Operacion[1] ; -1.673 ; -2.291 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[4]            ; Selector_Operacion[1] ; -1.700 ; -2.342 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[5]            ; Selector_Operacion[1] ; -1.750 ; -2.375 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[6]            ; Selector_Operacion[1] ; -1.738 ; -2.338 ; Rise       ; Selector_Operacion[1] ;
+;  Input_B[7]            ; Selector_Operacion[1] ; -0.498 ; -0.784 ; Rise       ; Selector_Operacion[1] ;
+; Selector_Operacion[*]  ; Selector_Operacion[1] ; -1.113 ; -1.736 ; Rise       ; Selector_Operacion[1] ;
+;  Selector_Operacion[0] ; Selector_Operacion[1] ; -1.113 ; -1.736 ; Rise       ; Selector_Operacion[1] ;
++------------------------+-----------------------+--------+--------+------------+-----------------------+
+
+
++----------------------------------------------------------------------------------------------+
+; Clock to Output Times                                                                        ;
++-----------------+-----------------------+-------+-------+------------+-----------------------+
+; Data Port       ; Clock Port            ; Rise  ; Fall  ; Clock Edge ; Clock Reference       ;
++-----------------+-----------------------+-------+-------+------------+-----------------------+
+; NZVC_vector[*]  ; Selector_Operacion[1] ; 5.621 ; 5.602 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[0] ; Selector_Operacion[1] ; 5.591 ; 5.576 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[1] ; Selector_Operacion[1] ; 5.621 ; 5.602 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[2] ; Selector_Operacion[1] ; 5.610 ; 5.583 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[3] ; Selector_Operacion[1] ; 5.584 ; 5.564 ; Rise       ; Selector_Operacion[1] ;
+; decenas[*]      ; Selector_Operacion[1] ; 7.625 ; 7.743 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[0]     ; Selector_Operacion[1] ; 6.249 ; 6.322 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[1]     ; Selector_Operacion[1] ; 7.625 ; 7.743 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[2]     ; Selector_Operacion[1] ; 6.249 ; 6.304 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[3]     ; Selector_Operacion[1] ; 6.261 ; 6.179 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[4]     ; Selector_Operacion[1] ; 6.591 ; 6.475 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[5]     ; Selector_Operacion[1] ; 6.288 ; 6.271 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[6]     ; Selector_Operacion[1] ; 6.452 ; 6.468 ; Rise       ; Selector_Operacion[1] ;
+; unidades[*]     ; Selector_Operacion[1] ; 6.377 ; 6.414 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[0]    ; Selector_Operacion[1] ; 6.377 ; 6.414 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[1]    ; Selector_Operacion[1] ; 6.217 ; 6.137 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[2]    ; Selector_Operacion[1] ; 6.227 ; 6.196 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[3]    ; Selector_Operacion[1] ; 6.246 ; 6.214 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[4]    ; Selector_Operacion[1] ; 6.364 ; 6.262 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[5]    ; Selector_Operacion[1] ; 6.331 ; 6.337 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[6]    ; Selector_Operacion[1] ; 6.208 ; 6.168 ; Rise       ; Selector_Operacion[1] ;
++-----------------+-----------------------+-------+-------+------------+-----------------------+
+
+
++----------------------------------------------------------------------------------------------+
+; Minimum Clock to Output Times                                                                ;
++-----------------+-----------------------+-------+-------+------------+-----------------------+
+; Data Port       ; Clock Port            ; Rise  ; Fall  ; Clock Edge ; Clock Reference       ;
++-----------------+-----------------------+-------+-------+------------+-----------------------+
+; NZVC_vector[*]  ; Selector_Operacion[1] ; 3.270 ; 3.335 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[0] ; Selector_Operacion[1] ; 3.273 ; 3.338 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[1] ; Selector_Operacion[1] ; 3.288 ; 3.345 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[2] ; Selector_Operacion[1] ; 3.281 ; 3.336 ; Rise       ; Selector_Operacion[1] ;
+;  NZVC_vector[3] ; Selector_Operacion[1] ; 3.270 ; 3.335 ; Rise       ; Selector_Operacion[1] ;
+; decenas[*]      ; Selector_Operacion[1] ; 3.361 ; 3.427 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[0]     ; Selector_Operacion[1] ; 3.519 ; 3.486 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[1]     ; Selector_Operacion[1] ; 4.363 ; 4.554 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[2]     ; Selector_Operacion[1] ; 3.427 ; 3.490 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[3]     ; Selector_Operacion[1] ; 3.361 ; 3.427 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[4]     ; Selector_Operacion[1] ; 3.567 ; 3.643 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[5]     ; Selector_Operacion[1] ; 3.431 ; 3.526 ; Rise       ; Selector_Operacion[1] ;
+;  decenas[6]     ; Selector_Operacion[1] ; 3.538 ; 3.611 ; Rise       ; Selector_Operacion[1] ;
+; unidades[*]     ; Selector_Operacion[1] ; 3.403 ; 3.464 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[0]    ; Selector_Operacion[1] ; 3.613 ; 3.537 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[1]    ; Selector_Operacion[1] ; 3.419 ; 3.488 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[2]    ; Selector_Operacion[1] ; 3.461 ; 3.499 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[3]    ; Selector_Operacion[1] ; 3.433 ; 3.498 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[4]    ; Selector_Operacion[1] ; 3.494 ; 3.596 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[5]    ; Selector_Operacion[1] ; 3.496 ; 3.570 ; Rise       ; Selector_Operacion[1] ;
+;  unidades[6]    ; Selector_Operacion[1] ; 3.403 ; 3.464 ; Rise       ; Selector_Operacion[1] ;
++-----------------+-----------------------+-------+-------+------------+-----------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Board Trace Model Assignments                                                                                                                                                                                                                                                                                                                                                                                     ;
++----------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; Pin            ; I/O Standard ; Near Tline Length ; Near Tline L per Length ; Near Tline C per Length ; Near Series R ; Near Differential R ; Near Pull-up R ; Near Pull-down R ; Near C ; Far Tline Length ; Far Tline L per Length ; Far Tline C per Length ; Far Series R ; Far Pull-up R ; Far Pull-down R ; Far C ; Termination Voltage ; Far Differential R ; EBD File Name ; EBD Signal Name ; EBD Far-end ;
++----------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; NZVC_vector[0] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; NZVC_vector[1] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; NZVC_vector[2] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; NZVC_vector[3] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; unidades[0]    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; unidades[1]    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; unidades[2]    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; unidades[3]    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; unidades[4]    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; unidades[5]    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; unidades[6]    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; decenas[0]     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; decenas[1]     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; decenas[2]     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; decenas[3]     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; decenas[4]     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; decenas[5]     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; decenas[6]     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; ~ALTERA_DCLK~  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; ~ALTERA_nCEO~  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
++----------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+
+
++----------------------------------------------------------------------------+
+; Input Transition Times                                                     ;
++-------------------------+--------------+-----------------+-----------------+
+; Pin                     ; I/O Standard ; 10-90 Rise Time ; 90-10 Fall Time ;
++-------------------------+--------------+-----------------+-----------------+
+; Input_A[7]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; Input_B[7]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; Input_A[6]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; Input_B[6]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; Input_A[5]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; Input_B[5]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; Input_A[4]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; Input_B[4]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; Input_A[3]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; Input_B[3]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; Input_A[2]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; Input_B[2]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; Input_A[1]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; Input_B[1]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; Input_A[0]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; Input_B[0]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; Selector_Operacion[0]   ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; Selector_Operacion[1]   ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_ASDO_DATA1~     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_FLASH_nCE_nCSO~ ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_DATA0~          ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
++-------------------------+--------------+-----------------+-----------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Slow Corner Signal Integrity Metrics                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ;
++----------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin            ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++----------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; NZVC_vector[0] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-06 V                   ; 2.36 V              ; -0.0113 V           ; 0.122 V                              ; 0.022 V                              ; 4.5e-10 s                   ; 4.45e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-06 V                  ; 2.36 V             ; -0.0113 V          ; 0.122 V                             ; 0.022 V                             ; 4.5e-10 s                  ; 4.45e-10 s                 ; Yes                       ; Yes                       ;
+; NZVC_vector[1] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-06 V                   ; 2.36 V              ; -0.0113 V           ; 0.122 V                              ; 0.022 V                              ; 4.5e-10 s                   ; 4.45e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-06 V                  ; 2.36 V             ; -0.0113 V          ; 0.122 V                             ; 0.022 V                             ; 4.5e-10 s                  ; 4.45e-10 s                 ; Yes                       ; Yes                       ;
+; NZVC_vector[2] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-06 V                   ; 2.36 V              ; -0.0113 V           ; 0.122 V                              ; 0.022 V                              ; 4.5e-10 s                   ; 4.45e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-06 V                  ; 2.36 V             ; -0.0113 V          ; 0.122 V                             ; 0.022 V                             ; 4.5e-10 s                  ; 4.45e-10 s                 ; Yes                       ; Yes                       ;
+; NZVC_vector[3] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-06 V                   ; 2.36 V              ; -0.0113 V           ; 0.122 V                              ; 0.022 V                              ; 4.5e-10 s                   ; 4.45e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-06 V                  ; 2.36 V             ; -0.0113 V          ; 0.122 V                             ; 0.022 V                             ; 4.5e-10 s                  ; 4.45e-10 s                 ; Yes                       ; Yes                       ;
+; unidades[0]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-06 V                   ; 2.36 V              ; -0.0113 V           ; 0.122 V                              ; 0.022 V                              ; 4.5e-10 s                   ; 4.45e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-06 V                  ; 2.36 V             ; -0.0113 V          ; 0.122 V                             ; 0.022 V                             ; 4.5e-10 s                  ; 4.45e-10 s                 ; Yes                       ; Yes                       ;
+; unidades[1]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-06 V                   ; 2.36 V              ; -0.0113 V           ; 0.122 V                              ; 0.022 V                              ; 4.5e-10 s                   ; 4.45e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-06 V                  ; 2.36 V             ; -0.0113 V          ; 0.122 V                             ; 0.022 V                             ; 4.5e-10 s                  ; 4.45e-10 s                 ; Yes                       ; Yes                       ;
+; unidades[2]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-06 V                   ; 2.36 V              ; -0.0113 V           ; 0.122 V                              ; 0.022 V                              ; 4.5e-10 s                   ; 4.45e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-06 V                  ; 2.36 V             ; -0.0113 V          ; 0.122 V                             ; 0.022 V                             ; 4.5e-10 s                  ; 4.45e-10 s                 ; Yes                       ; Yes                       ;
+; unidades[3]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-06 V                   ; 2.36 V              ; -0.0113 V           ; 0.122 V                              ; 0.022 V                              ; 4.5e-10 s                   ; 4.45e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-06 V                  ; 2.36 V             ; -0.0113 V          ; 0.122 V                             ; 0.022 V                             ; 4.5e-10 s                  ; 4.45e-10 s                 ; Yes                       ; Yes                       ;
+; unidades[4]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-06 V                   ; 2.36 V              ; -0.0113 V           ; 0.122 V                              ; 0.022 V                              ; 4.5e-10 s                   ; 4.45e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-06 V                  ; 2.36 V             ; -0.0113 V          ; 0.122 V                             ; 0.022 V                             ; 4.5e-10 s                  ; 4.45e-10 s                 ; Yes                       ; Yes                       ;
+; unidades[5]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-06 V                   ; 2.36 V              ; -0.0113 V           ; 0.122 V                              ; 0.022 V                              ; 4.5e-10 s                   ; 4.45e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-06 V                  ; 2.36 V             ; -0.0113 V          ; 0.122 V                             ; 0.022 V                             ; 4.5e-10 s                  ; 4.45e-10 s                 ; Yes                       ; Yes                       ;
+; unidades[6]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-06 V                   ; 2.36 V              ; -0.0113 V           ; 0.122 V                              ; 0.022 V                              ; 4.5e-10 s                   ; 4.45e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-06 V                  ; 2.36 V             ; -0.0113 V          ; 0.122 V                             ; 0.022 V                             ; 4.5e-10 s                  ; 4.45e-10 s                 ; Yes                       ; Yes                       ;
+; decenas[0]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.25e-07 V                   ; 2.35 V              ; -0.0111 V           ; 0.113 V                              ; 0.035 V                              ; 7.76e-10 s                  ; 8.04e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 7.25e-07 V                  ; 2.35 V             ; -0.0111 V          ; 0.113 V                             ; 0.035 V                             ; 7.76e-10 s                 ; 8.04e-10 s                 ; Yes                       ; Yes                       ;
+; decenas[1]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.25e-07 V                   ; 2.33 V              ; -0.00317 V          ; 0.162 V                              ; 0.063 V                              ; 3.54e-09 s                  ; 3.41e-09 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 7.25e-07 V                  ; 2.33 V             ; -0.00317 V         ; 0.162 V                             ; 0.063 V                             ; 3.54e-09 s                 ; 3.41e-09 s                 ; Yes                       ; Yes                       ;
+; decenas[2]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-06 V                   ; 2.36 V              ; -0.0113 V           ; 0.122 V                              ; 0.022 V                              ; 4.5e-10 s                   ; 4.45e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-06 V                  ; 2.36 V             ; -0.0113 V          ; 0.122 V                             ; 0.022 V                             ; 4.5e-10 s                  ; 4.45e-10 s                 ; Yes                       ; Yes                       ;
+; decenas[3]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.25e-07 V                   ; 2.36 V              ; -0.00946 V          ; 0.111 V                              ; 0.027 V                              ; 6.46e-10 s                  ; 6.2e-10 s                   ; Yes                        ; Yes                        ; 2.32 V                      ; 7.25e-07 V                  ; 2.36 V             ; -0.00946 V         ; 0.111 V                             ; 0.027 V                             ; 6.46e-10 s                 ; 6.2e-10 s                  ; Yes                       ; Yes                       ;
+; decenas[4]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-06 V                   ; 2.36 V              ; -0.0113 V           ; 0.122 V                              ; 0.022 V                              ; 4.5e-10 s                   ; 4.45e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-06 V                  ; 2.36 V             ; -0.0113 V          ; 0.122 V                             ; 0.022 V                             ; 4.5e-10 s                  ; 4.45e-10 s                 ; Yes                       ; Yes                       ;
+; decenas[5]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-06 V                   ; 2.36 V              ; -0.0113 V           ; 0.122 V                              ; 0.022 V                              ; 4.5e-10 s                   ; 4.45e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-06 V                  ; 2.36 V             ; -0.0113 V          ; 0.122 V                             ; 0.022 V                             ; 4.5e-10 s                  ; 4.45e-10 s                 ; Yes                       ; Yes                       ;
+; decenas[6]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-06 V                   ; 2.36 V              ; -0.0113 V           ; 0.122 V                              ; 0.022 V                              ; 4.5e-10 s                   ; 4.45e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-06 V                  ; 2.36 V             ; -0.0113 V          ; 0.122 V                             ; 0.022 V                             ; 4.5e-10 s                  ; 4.45e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_DCLK~  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 5.68e-07 V                   ; 2.35 V              ; -0.0132 V           ; 0.2 V                                ; 0.027 V                              ; 5.26e-10 s                  ; 4.81e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 5.68e-07 V                  ; 2.35 V             ; -0.0132 V          ; 0.2 V                               ; 0.027 V                             ; 5.26e-10 s                 ; 4.81e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_nCEO~  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 9.36e-07 V                   ; 2.35 V              ; -0.00444 V          ; 0.18 V                               ; 0.019 V                              ; 7.23e-10 s                  ; 9.82e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 9.36e-07 V                  ; 2.35 V             ; -0.00444 V         ; 0.18 V                              ; 0.019 V                             ; 7.23e-10 s                 ; 9.82e-10 s                 ; Yes                       ; Yes                       ;
++----------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fast Corner Signal Integrity Metrics                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ;
++----------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin            ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++----------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; NZVC_vector[0] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-08 V                   ; 2.73 V              ; -0.0566 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-10 s                  ; 2.76e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-08 V                  ; 2.73 V             ; -0.0566 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-10 s                 ; 2.76e-10 s                 ; Yes                       ; Yes                       ;
+; NZVC_vector[1] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-08 V                   ; 2.73 V              ; -0.0566 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-10 s                  ; 2.76e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-08 V                  ; 2.73 V             ; -0.0566 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-10 s                 ; 2.76e-10 s                 ; Yes                       ; Yes                       ;
+; NZVC_vector[2] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-08 V                   ; 2.73 V              ; -0.0566 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-10 s                  ; 2.76e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-08 V                  ; 2.73 V             ; -0.0566 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-10 s                 ; 2.76e-10 s                 ; Yes                       ; Yes                       ;
+; NZVC_vector[3] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-08 V                   ; 2.73 V              ; -0.0566 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-10 s                  ; 2.76e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-08 V                  ; 2.73 V             ; -0.0566 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-10 s                 ; 2.76e-10 s                 ; Yes                       ; Yes                       ;
+; unidades[0]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-08 V                   ; 2.73 V              ; -0.0566 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-10 s                  ; 2.76e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-08 V                  ; 2.73 V             ; -0.0566 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-10 s                 ; 2.76e-10 s                 ; Yes                       ; Yes                       ;
+; unidades[1]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-08 V                   ; 2.73 V              ; -0.0566 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-10 s                  ; 2.76e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-08 V                  ; 2.73 V             ; -0.0566 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-10 s                 ; 2.76e-10 s                 ; Yes                       ; Yes                       ;
+; unidades[2]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-08 V                   ; 2.73 V              ; -0.0566 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-10 s                  ; 2.76e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-08 V                  ; 2.73 V             ; -0.0566 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-10 s                 ; 2.76e-10 s                 ; Yes                       ; Yes                       ;
+; unidades[3]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-08 V                   ; 2.73 V              ; -0.0566 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-10 s                  ; 2.76e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-08 V                  ; 2.73 V             ; -0.0566 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-10 s                 ; 2.76e-10 s                 ; Yes                       ; Yes                       ;
+; unidades[4]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-08 V                   ; 2.73 V              ; -0.0566 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-10 s                  ; 2.76e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-08 V                  ; 2.73 V             ; -0.0566 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-10 s                 ; 2.76e-10 s                 ; Yes                       ; Yes                       ;
+; unidades[5]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-08 V                   ; 2.73 V              ; -0.0566 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-10 s                  ; 2.76e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-08 V                  ; 2.73 V             ; -0.0566 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-10 s                 ; 2.76e-10 s                 ; Yes                       ; Yes                       ;
+; unidades[6]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-08 V                   ; 2.73 V              ; -0.0566 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-10 s                  ; 2.76e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-08 V                  ; 2.73 V             ; -0.0566 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-10 s                 ; 2.76e-10 s                 ; Yes                       ; Yes                       ;
+; decenas[0]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.78e-08 V                   ; 2.71 V              ; -0.0349 V           ; 0.253 V                              ; 0.069 V                              ; 4.96e-10 s                  ; 5.19e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.78e-08 V                  ; 2.71 V             ; -0.0349 V          ; 0.253 V                             ; 0.069 V                             ; 4.96e-10 s                 ; 5.19e-10 s                 ; No                        ; Yes                       ;
+; decenas[1]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.78e-08 V                   ; 2.64 V              ; -0.0109 V           ; 0.244 V                              ; 0.16 V                               ; 2.42e-09 s                  ; 2.37e-09 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.78e-08 V                  ; 2.64 V             ; -0.0109 V          ; 0.244 V                             ; 0.16 V                              ; 2.42e-09 s                 ; 2.37e-09 s                 ; No                        ; Yes                       ;
+; decenas[2]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-08 V                   ; 2.73 V              ; -0.0566 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-10 s                  ; 2.76e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-08 V                  ; 2.73 V             ; -0.0566 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-10 s                 ; 2.76e-10 s                 ; Yes                       ; Yes                       ;
+; decenas[3]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.78e-08 V                   ; 2.72 V              ; -0.0408 V           ; 0.163 V                              ; 0.075 V                              ; 4.51e-10 s                  ; 4.33e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.78e-08 V                  ; 2.72 V             ; -0.0408 V          ; 0.163 V                             ; 0.075 V                             ; 4.51e-10 s                 ; 4.33e-10 s                 ; No                        ; Yes                       ;
+; decenas[4]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-08 V                   ; 2.73 V              ; -0.0566 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-10 s                  ; 2.76e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-08 V                  ; 2.73 V             ; -0.0566 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-10 s                 ; 2.76e-10 s                 ; Yes                       ; Yes                       ;
+; decenas[5]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-08 V                   ; 2.73 V              ; -0.0566 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-10 s                  ; 2.76e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-08 V                  ; 2.73 V             ; -0.0566 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-10 s                 ; 2.76e-10 s                 ; Yes                       ; Yes                       ;
+; decenas[6]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-08 V                   ; 2.73 V              ; -0.0566 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-10 s                  ; 2.76e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-08 V                  ; 2.73 V             ; -0.0566 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-10 s                 ; 2.76e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_DCLK~  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.22e-08 V                   ; 2.72 V              ; -0.0747 V           ; 0.28 V                               ; 0.169 V                              ; 3.1e-10 s                   ; 3.01e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.22e-08 V                  ; 2.72 V             ; -0.0747 V          ; 0.28 V                              ; 0.169 V                             ; 3.1e-10 s                  ; 3.01e-10 s                 ; No                        ; Yes                       ;
+; ~ALTERA_nCEO~  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 3.53e-08 V                   ; 2.7 V               ; -0.0212 V           ; 0.204 V                              ; 0.049 V                              ; 4.85e-10 s                  ; 6.73e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 3.53e-08 V                  ; 2.7 V              ; -0.0212 V          ; 0.204 V                             ; 0.049 V                             ; 4.85e-10 s                 ; 6.73e-10 s                 ; No                        ; Yes                       ;
++----------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No non-DPA dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 17    ; 17   ;
+; Unconstrained Input Port Paths  ; 131   ; 131  ;
+; Unconstrained Output Ports      ; 18    ; 18   ;
+; Unconstrained Output Port Paths ; 60    ; 60   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+    Info: Processing started: Mon Jun 03 15:00:00 2024
+Info: Command: quartus_sta MAIN -c MAIN
+Info: qsta_default_script.tcl version: #1
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (21077): Core supply voltage is 1.2V
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Warning (335093): TimeQuest Timing Analyzer is analyzing 11 combinational loops as latches.
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'MAIN.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332105): Deriving Clocks
+    Info (332105): create_clock -period 1.000 -name Selector_Operacion[1] Selector_Operacion[1]
+Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info: Analyzing Slow 1200mV 85C Model
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
+Info (332146): Worst-case minimum pulse width slack is -3.000
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -3.000              -3.000 Selector_Operacion[1] 
+Info: Analyzing Slow 1200mV 0C Model
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
+Info (332146): Worst-case minimum pulse width slack is -3.000
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -3.000              -3.000 Selector_Operacion[1] 
+Info: Analyzing Fast 1200mV 0C Model
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
+Info (332146): Worst-case minimum pulse width slack is -3.000
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -3.000              -3.000 Selector_Operacion[1] 
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 6 warnings
+    Info: Peak virtual memory: 4624 megabytes
+    Info: Processing ended: Mon Jun 03 15:00:02 2024
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+
